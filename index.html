@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="width: 100%; text-align: center;">
+        <h3>Online Quiz Apllication</h3>
+        <fieldset>
+            <p>
+                Q-1: Which is a true format of saving a javascript file ?
+            </p>
+            <p>
+                Please select the right one 
+            </p>
+            <input type="radio" name="question1" id="q-1answer1" value="app.js"
+            > 
+            <label for="q-1answer1">app.js</label>
+            <input type="radio" name="question1" id="q-1answer2" value="app.java"> 
+            <label for="q-1answer2">
+                app.java
+            </label>
+            <input type="radio" name="question1" id="q-1answer3" value="app.html">
+            <label for="q-1answer3">
+                app.html
+            </label>
+            <input type="radio" name="question1" id="q-1answer4" value='app.css'>
+            <label for="q-1answer4">
+                app.css
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <p>
+               Q-2: Which is a true format of saving a html file ?
+            </p>
+            <p>
+                Correct answer may be one or more
+            </p>
+            <input type="checkbox" name="question2" id="q-2answer1" value="app.js"
+            > 
+            <label for="q-2answer1">index.html</label>
+            <input type="checkbox" name="question2" id="q-2answer2" value="app.java"> 
+            <label for="q-2answer2">
+                app.java
+            </label>
+            <input type="checkbox" name="question2" id="q-2answer3" value="app.html">
+            <label for="q-2answer3">
+                app.html
+            </label>
+            <input type="checkbox" name="question2" id="q-2answer4" value='app.css'>
+            <label for="q-2answer4">
+                app.css
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <p>
+               Q-3: Which is a true format of saving a css file ?
+            </p>
+            <p>
+                Correct answer may be one or more
+            </p>
+            <input type="checkbox" name="question3" id="q-3answer1" value="app.js"
+            > 
+            <label for="q-3answer1">index.html</label>
+            <input type="checkbox" name="question3" id="q-3answer2" value="app.java"> 
+            <label for="q-3answer2">
+                app.java
+            </label>
+            <input type="checkbox" name="question3" id="q-3answer3" value="app.html">
+            <label for="q-3answer3">
+                app.html
+            </label>
+            <input type="checkbox" name="question3" id="q-3answer4" value='app.css'>
+            <label for="q-3answer4">
+                app.css
+            </label>
+        </fieldset>
+        <button style="text-align: center;" 
+        onclick="submit()"
+        >
+            submit
+        </button>
+        
+    </div>
+    <div class="model">
+        <div class="model-head">
+            <h3>Quiz Result</h3>
+            <span style="cursor: pointer;">&times;</span>
+        </div>
+        <div class="model-body" style="text-align: center;"></div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

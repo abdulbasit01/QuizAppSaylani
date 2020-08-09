@@ -1,0 +1,27 @@
+
+.model{
+    
+    display: none;
+}
+.model-show{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: limegreen;
+    padding-top:0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+}
+
+.model  .model-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    border-bottom: 2px solid #fff;
+
+}
